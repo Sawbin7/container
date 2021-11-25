@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Montserrat:wght@200&family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--n-Very-Light-Grey);
+  background-color: hsl(225, 10%, 92%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--n-Very-Dark-Blue);
+}
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  font-family: "poppins";
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: var(--n-Very-Dark-Blue);
+
+  /* color: var(--n-Grayish-Blue); */
+}
